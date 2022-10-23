@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+span{
+    font-weight: bolder;
+}
+
+p{
+    text-align: justify;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.href{
+    border: 2px solid lightgray;
+    padding: 0px 30px 30px 30px;
+    background-color: whitesmoke;
+    width: 350px;
+}
+
+.href li{
+    list-style-type: decimal;   
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ol{
+    margin: 0;
+}
